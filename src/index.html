@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <main class="main">
+    <section class="main__profile">
+      <div class="limiter">
+          <div class="profile">
+              <img src="./img/photo.png" alt="person pic" class="profile__photo avatar">
+              <div class="profile__info person-info">
+                <h1 class="person-info__name">
+                  Вероника Ростова
+                </h1>
+                <p class="person-info__position">
+                  Менеджер по продажам
+                </p>
+                <p class="person-info__offer">
+                  Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны
+                </p>
+              </div>
+              <div class="profile__data data-table">
+                <div class="data-table__header">
+                  <p class="data-table__header-col">Услуг</p>
+                </div>
+                <div class="data-table__chart">
+                  <div class="data-table__row">
+                      <p class="data-table__item data-table__item--first">Ручное бронирование</p>
+                      <p class="data-table__num">11</p>
+                  </div>
+                  <div class="data-table__row">
+                      <p class="data-table__item data-table__item--second">Пакетные туры</p>
+                      <p class="data-table__num">3</p>
+                  </div>
+                  <div class="data-table__row">
+                      <p class="data-table__item data-table__item--third">Отели</p>
+                      <p class="data-table__num">1</p>
+                  </div>
+                </div>
+                <div class="data-table__footer">
+                  <p class="data-table__footer-item">Всего</p>
+                  <p class="data-table__footer-num">15</p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="main__comments">
+      <div class="limiter">
+          <div class="comments main__comments">
+              <div class="comments__head">
+                <div class="comments__options">
+                  <p class="comments__last">Последние отзывы</p>
+                  <p class="comments__all">Все отзывы</p>
+                </div>
+                <div class="comments__stats">
+                  <p class="comments__counter comments__counter--like">131</p>
+                  <p class="comments__counter comments__counter--comment">14</p>
+                </div>
+              </div>
+              <ul class="comments_feed feed">
+                <li class="comment">
+                  <div class="comment__info">
+                      <p class="comment__name">Самуил</p>
+                      <p class="comment__date">13 октября 2011</p>
+                  </div>
+                  <p class="comment__text">
+                      Привет, Верунь! ниче себе ты крутая. фотка класс!!!! 
+                  </p>
+                </li>
+                <li class="comment">
+                    <div class="comment__info">
+                        <p class="comment__name">Лилия Семенова</p>
+                        <p class="comment__date">14 октября 2011</p>
+                    </div>
+                    <p class="comment__text">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц
+                        жизненно стабилизирует кинетический момент, это и есть всемирно
+                        известный центр огранки алмазов и торговли бриллиантами?
+                    </p>
+                </li>
+                <li class="comment">
+                    <div class="comment__info">
+                        <p class="comment__name">Лилия Семенова</p>
+                        <p class="comment__date">14 октября 2011</p>
+                    </div>
+                    <p class="comment__text">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц
+                         жизненно стабилизирует кинетический момент?
+                    </p>
+                </li>        
+              </ul>
+            </div>
+      </div>
+    </section>
+    <section class="main__add-post">
+      <div class="limiter">
+        <div class="post-adder">
+            <textarea class="post-adder__area" name="area" id="area"></textarea>
+            <button class="post-adder__button">Написать консультанту</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>

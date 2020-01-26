@@ -1,0 +1,67 @@
+// vars
+$main-grey: #333333;
+$secondary-grey: #808080;
+
+$base-font: 'Arial';
+
+// defaults / nullify / etc 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body,
+ul,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+// fonts
+@font-face {
+  font-family: 'PT Sans';
+  font-weight: bold;
+  font-style: normal;;
+  src: url('../fonts/PTSans-Bold.eot');
+  src: local('PTSans'), local('PT Sans'), local('PT-Sans'),
+       url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PTSans-Bold.woff2') format('woff2'),
+       url('../fonts/PTSans-Bold.woff') format('woff'),
+       url('../fonts/PTSans-Bold.ttf') format('truetype');
+}
