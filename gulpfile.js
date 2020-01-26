@@ -43,17 +43,17 @@ gulp.task('styles', () => {
 
 gulp.task('html', () => {
   return gulp.src('./src/index.html')
-  .pipe(gulp.dest('./build'))
+    .pipe(gulp.dest('./build'))
 });
 
 gulp.task('pics', () => {
   return gulp.src('./src/img/*')
-  .pipe(gulp.dest('./build/img'))
+    .pipe(gulp.dest('./build/img'))
 });
 
 gulp.task('fonts', () => {
   return gulp.src('./src/fonts/*')
-  .pipe(gulp.dest('./build/fonts'))
+    .pipe(gulp.dest('./build/fonts'))
 });
 
 gulp.task('scripts', () => {
